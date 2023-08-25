@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     EditText cgpa,iq,profile_score;
     Button predict;
     TextView result;
-    String url = "https://placementapppredict.herokuapp.com/predict";
+    String url = ""; //Add the API as String
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
